@@ -3,6 +3,9 @@
 #include "mesh.h"
 #include "2d_femtest.h"
 
+// Generating Stiffness Matrix and Load Vector
+// using P1 triangle elements
+
 int initconstmesh(MESH *msh)
 {
 	int nvert = 9;

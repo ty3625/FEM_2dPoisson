@@ -1,10 +1,12 @@
 // solver for 2D Poisson Problem
 // div (grad (u)) + f = 0,   u=u0 at y=0
 //
-// TY <verne.ty3625@gmail.com>
+// using P1 triangle Elements
+//
 //
 // input: medit .mesh format
 //
+// TY <verne.ty3625@gmail.com>
 
 
 #include <stdio.h>
