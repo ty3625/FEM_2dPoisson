@@ -5,7 +5,7 @@
 
 #define MAXLINE 32768
 
-int findkey(FILE *fp, const char *key)
+static int findkey(FILE *fp, const char *key)
 {
 	char temp[MAXLINE];
 
