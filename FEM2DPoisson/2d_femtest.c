@@ -103,11 +103,11 @@ int set_ith_matrix_uxvxuyvy(MESH *msh, int index, double DD, double *M) {
 
 int set_ith_vector_f(MESH *msh, int index, double fbar, double *f) {
 	double detA;
-	double *x, *y;
+//	double *x, *y;
 	int *tp1, *tp2, *tp3;
 
-	x = msh->x;
-	y = msh->y;
+//	x = msh->x;
+//	y = msh->y;
 	tp1 = msh->tp1;
 	tp2 = msh->tp2;
 	tp3 = msh->tp3;
